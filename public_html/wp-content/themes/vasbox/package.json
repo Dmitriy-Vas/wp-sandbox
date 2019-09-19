@@ -1,0 +1,20 @@
+{
+  "name": "vasbox",
+  "version": "0.0.1",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "build": "gulp images css php",
+    "clean": "gulp clean"
+  },
+  "author": "dmitriy-vas",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.0",
+    "gulp-imagemin": "^6.1.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
