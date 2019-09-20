@@ -32,7 +32,7 @@ function php() {
 }
 
 function css() {
-  return gulp.src(dir.src + 'sass/**/*')
+  return gulp.src([dir.src + 'sass/style.sass', dir.src + 'sass/**/*'])
     .pipe(sass({ outputStyle: 'expanded' }))
     .pipe(autoprefixer())
     .pipe(concat('style.css'))
