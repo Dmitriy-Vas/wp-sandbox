@@ -1,2 +1,4 @@
 <?php
-echo 'Hello World!';
+get_header();
+
+get_footer();
